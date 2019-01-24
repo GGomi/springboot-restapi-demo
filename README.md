@@ -20,12 +20,9 @@ REST API라는 개념이 확실하게 잡혀있지않았고, 이건 REST API가 
 - [REST API란 무엇인가](./doc/rest_basic.md)
 - [Event REST API 문서](./doc/Event_REST_API_Doc.md)
 - [Create Domain](./doc/Create_Domain.md)
+- [Create Business](./doc/Event_business.md)
 
-@WebMvcTest
-- MockMvc 빈을 자동설정해줌, 웹관련 빈만 등록해준다.
-- 슬라이싱 테스트, 컨트롤러 테스트로 자주 사용된다.
-- 웹서버를 띄우지않아서 빠르긴하지만 단위테스트보다 빠르진않다.
-- Web용 Bean만 생성해준다.
+
 
 Enum을 JPA 맵핑시 주의할 것
 - @Enumerated(EnumType.STRING) 권장 => ORDINARY로 설정했을때 Enum의 순서가 바뀌게되면 데이터베이스테이블 내용이 엉망진창이 된다.

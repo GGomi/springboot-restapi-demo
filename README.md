@@ -21,6 +21,7 @@ REST API라는 개념이 확실하게 잡혀있지않았고, 이건 REST API가 
 - [Event REST API 문서](./doc/Event_REST_API_Doc.md)
 - [Create Domain](./doc/Create_Domain.md)
 - [Create Business](./doc/Event_business.md)
+- [Create EventControllerTest](./doc/Create_Event_Test.md)
 
 
 

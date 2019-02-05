@@ -13,5 +13,5 @@
 - Controller에서 EventDto객체를 파라미터로 받고, Event 객체로 변환해야할 때 ```ModelMapper``` 를 사용
 
 
-## @SpringBootTest
+## @SpringBootTest(통합테스트로 전환)
 - mocking할 것들이 많아지면 WebMvcTest로는 테스트작성하기 힘들어지기 때문에 SpringBootTest를 사용한다.
